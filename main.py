@@ -87,3 +87,19 @@ print(var2[-15])
 print(var1[0] + (var2[15]))
 print(var1[0] + (var2[-3]))
 print(var2[3] + (var2[15]))
+
+print(var1[4:7])
+print(var1.find(" ")) # returns the index of the first matched character(s)
+print(var2[0:var2.find(" ")])
+
+if("Python" not in var2):
+	print("YAYYYY")
+else:
+	print("NAYYYY")
+
+print(ord("A"))
+print(chr(75))
+print(chr(0))
+
+
+
